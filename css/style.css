@@ -588,12 +588,12 @@ select{
 .subtituloNov{
     font-size: 3.75rem;
     font-weight: 100;
-    margin: 50px 0px 40px 40px;
+    margin: 50px 40px 40px 40px;
 }
 
-.appLinkbooks p{
-    font-size: 1.5625rem;
-    margin: 0px 80px 40px 40px;
+.textoAppNov p{
+    font-size: 1.0625rem;
+    margin: 0px 170px 40px 40px;
 }
 
 .appStore2{
@@ -635,6 +635,12 @@ select{
 
 .imagenNov{
     margin-right: 80px;
+    width: 500px;
+    min-width: 250px;
+}
+
+.imagenNov img{
+    width: 100%;
 }
 
 /*------ FOOTER -------*/
@@ -715,6 +721,27 @@ footer{
     .subtituloBlog{
         font-size: 6.875rem;
     }
+
+    /*---- NOVEDADES.HTML ------*/
+
+
+    .appLinkbooks{
+        display: flex;
+        flex-direction: column;
+        margin: 90px 60px;
+    }
+
+    .subtituloNov{
+        font-size: 3.125rem;
+    }
+
+    .textoAppNov p{
+        font-size: 15px;
+    }
+
+    .imagenNov{
+        display: none;
+    }
 }
 
 
@@ -764,6 +791,13 @@ footer{
 
     /*---- NOVEDADES.HTML -----*/
 
+    .portadaNov4{
+        display: none;
+    }
+
+    .portadaNov5{
+        display: none;
+    }
 }
 
 
@@ -1005,7 +1039,16 @@ footer{
     .subtituloBlog{
         font-size: 5.625rem;
     }
+
+    /*----- NOVEDADES.HTML -----*/
+
+    .tituloNovedades{
+        font-size: 50px;
+    }
 }
+
+
+
 
 
 
@@ -1196,6 +1239,33 @@ footer{
         width: 100%;
         margin-bottom: 80px;
     }
+
+    /*----- NOVEDADES.HTML -----*/
+
+    .portadaNov4{
+        display: block;
+    }
+
+    .portadasNovedades{
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        row-gap: 40px;
+        justify-items: center;
+    }
+
+    .textoAppNov p{
+        margin-right: 40px;
+    }
+
+    .appStore2{
+        padding: 8px 40px;
+        font-size: 18px;
+    }
+
+    .playStore2{
+        padding: 8px 40px;
+        font-size: 18px;
+    }
 }
 
 
@@ -1290,6 +1360,27 @@ footer{
         padding: 7px 35px;
         font-size: 1.25rem;
     }
+
+    /*---- NOVEDADES.HTML -----*/
+
+    .subtituloNov{
+        font-size: 3.125rem;
+    }
+
+    .textoAppNov p{
+        margin-bottom: 25px;
+    }
+
+    .appStore2{
+        padding: 5px 30px;
+        font-size: 11px;
+        margin-right: 20px;
+    }
+
+    .playStore2{
+        padding: 5px 30px;
+        font-size: 11px;
+    }
 }
 
 
@@ -1361,6 +1452,39 @@ footer{
 
     .playStore{
         padding: 12px 22px;
+    }
+
+    /*------ NOVEDADES.HTML -------*/
+
+    .tituloNovedades{
+        font-size: 30px;
+    }
+
+    .portadaNueva{
+        max-width: 140px;
+    }
+
+    .appLinkbooks{
+        margin: 90px 30px;
+    }
+
+    .subtituloNov{
+        font-size: 30px;
+    }
+
+    .textoAppNov p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .appStore2{
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+
+    .playStore2{
+        padding: 5px 20px;
+        font-size: 10px;
     }
 }
 
@@ -1472,6 +1596,20 @@ footer{
         width: 220px;
      }
 
+     /*---- NOVEDADES.HTML ------*/
+
+    .subtituloNov{
+        margin-left: 20px;
+    }
+
+    .textoAppNov p{
+        margin-left: 20px;
+    }
+
+     .appStore2{
+        margin-left: 10pxpx;
+        margin-right: 10px;
+     }
 }
 
 
