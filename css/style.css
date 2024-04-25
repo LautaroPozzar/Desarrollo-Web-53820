@@ -477,7 +477,7 @@ select{
 .subtituloBlog{
     color: #2963DA;
     font-family: "Alumni Sans Inline One", sans-serif;
-    font-size: 9.375rem;
+    font-size: 9.25rem;
     font-weight: 100;
     margin: 150px 0px 200px 60px;
 }
@@ -486,9 +486,9 @@ select{
 
 .articulosBlog{
     font-size: 1.25rem;
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
 }
 
 .articulosBlog article{
@@ -507,13 +507,27 @@ select{
     font-size: 1.25rem;
 }
 
-.articulosBlog article p{
-    margin-bottom: 100px;
+.textoBlog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin-bottom: 80px;
 }
 
-.articulosBlog article a p{
+.textoBlog p{
+    font-size: 18px;
+}
+
+.textoBlog a p{
     color: #2963DA;
     text-decoration: underline;
+}
+
+.pagination{
+    background-color: black;
+    display: flex;
+    justify-content: center;
 }
 
 /*Seccion newsletter*/
@@ -635,9 +649,14 @@ footer{
 }
 
 .enlacesFooter{
+    text-decoration: none;
     display: flex;
     gap: 1.25rem;
     margin-left: 20px;
+}
+
+.enlacesFooter a{
+    color: white;
 }
 
 .enlacesFooter a:hover{
@@ -686,11 +705,28 @@ footer{
 
 
 
-/*1170px*/
 
-@media (max-width:1170px){
 
-    /*----- INDEX.HTML -----*/
+@media(max-width:1200px){
+    .tituloBlog{
+        font-size: 4.375rem;
+    }
+
+    .subtituloBlog{
+        font-size: 6.875rem;
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-width:1170px){
+
+        /*----- INDEX.HTML -----*/
 
     /*seccion app*/
 
@@ -726,7 +762,11 @@ footer{
         min-width: 170px;
     }
 
+    /*---- NOVEDADES.HTML -----*/
+
 }
+
+
 
 
 
@@ -793,6 +833,28 @@ footer{
     .textoTerceraSection{
         margin: 40px 35px 40px 90px;
     }
+
+
+
+    /*------ BLOG.HTML ------*/
+
+    .articulosBlog article{
+        width: 250px;
+        gap: 20px;
+    }
+
+    .articulosBlog a img{
+        width: 250px;
+    }
+
+    .textoBlog{
+        height: 270px;
+    }
+
+    .textoBlog p{
+        font-size: 15px;
+    }
+
 }
 
 
@@ -817,6 +879,34 @@ footer{
     .textoTerceraSection h2{
         font-size: 1.875rem;
     }
+
+        /*------ BLOG.HTML ------*/
+
+    .articulosBlog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .articulosBlog article{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+    
+    .textoBlog{
+        height: 100%;
+        width: 100%;
+    }
+
+    .textoBlog h3{
+        font-size: 1rem;
+    }
+
+    .textoBlog p{
+        font-size: .875rem;
+    }
+
 }
 
 
@@ -903,6 +993,17 @@ footer{
 
     .imagenDos{
         width: 100%;
+    }
+
+
+    /*------ BLOG.HTML ------*/
+
+    .tituloBlog{
+        font-size: 3.125rem;
+    }
+
+    .subtituloBlog{
+        font-size: 5.625rem;
     }
 }
 
@@ -1065,6 +1166,36 @@ footer{
         padding: 12px 40px;
         font-size: .9375rem;
     }
+
+/*------ BLOG.HTML ------*/
+
+.subtituloBlog{
+    font-size: 4.375rem;
+}
+}
+
+
+
+
+@media (max-width:730px){
+    .articulosBlog article{
+        flex-direction: column;
+        width: 300px;
+        min-width: 150px;
+    }
+
+    .articulosBlog article a img{
+        width: 300px;
+    }
+
+    .textoBlog{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+        width: 100%;
+        margin-bottom: 80px;
+    }
 }
 
 
@@ -1138,6 +1269,26 @@ footer{
 
     .playStore{
         padding: 12px 27px;
+    }
+
+    /*----- BLOG.HTML -----*/
+
+    .tituloBlog{
+        font-size: 2.5rem;
+    }
+
+    .subtituloBlog{
+        margin: 130px 30px 180px 30px;
+        font-size: 3.4375rem;
+    }
+
+    .textNewsletter h2{
+        font-size: 1.875rem;
+    }
+
+    .botonAqui{
+        padding: 7px 35px;
+        font-size: 1.25rem;
     }
 }
 
@@ -1310,6 +1461,17 @@ footer{
     .footerDos{
         gap: 50px;
         }
+
+        /*----- BLOG.HTML ------*/
+
+        .articulosBlog article{
+            width: 220px;
+        }
+
+     .articulosBlog article a img{
+        width: 220px;
+     }
+
 }
 
 
