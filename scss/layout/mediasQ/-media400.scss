@@ -1,0 +1,113 @@
+@media (max-width: 400px) {
+    /*----- INDEX.HTML -----*/
+
+    .textoInicio {
+        h1{
+            font-size: 2.1875rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    /*Primera seccion*/
+    .primeraSection {
+        margin: 0px 20px; 
+        .textoPrimeraSection{
+            h2{
+                font-size: 1.875rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+        .imagenUno1{
+            min-width: 250px;
+        }
+    }
+
+    /*Segunda seccion*/
+    .segundaSection {
+        div{
+            h2{
+                font-size: 1.125rem;
+                margin: 40px 10px;
+            }
+        }
+        .exploraCatalogo{
+            grid-template-columns: repeat(2, 120px);
+            margin: 30px 10px;
+            .portadaInicio{
+                .portada1{
+                    max-width: 100px;
+                }
+            }
+        }
+    }
+
+    /*Tercera seccion*/
+    .terceraSection {
+        margin: 0px 20px; 
+        .imagenDos1{
+            width: 50%;
+            margin: 40px 0px;
+            min-width: 250px;
+            .imagenDos{
+                width: 100%;
+            }
+        }
+        .textoTerceraSection{
+            h2{
+                font-size: 1.875rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    /*Seccion app*/
+    .appInicio {
+        margin: 150px 20px; }
+
+    /*----- BLOG.HTML ------*/
+    .articulosBlog {
+        article{
+            width: 220px;
+            a{
+                img{
+                    width: 220px
+                }
+            }
+        }
+    }
+
+    /*---- NOVEDADES.HTML ------*/
+    .appLinkbooks{
+        div{
+            .subtituloNov{
+                margin-left: 20px;
+            }
+            .textoAppNov{
+                p{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    .botonesNov{
+        .appStore2{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+
+        /*----- FOOTER ------*/
+
+        footer{
+            .footerDos{
+                gap: 70px;
+            }
+        }
+}

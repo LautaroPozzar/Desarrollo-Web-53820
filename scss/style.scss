@@ -1,0 +1,38 @@
+/*UTILITIES*/
+
+
+/*BASE*/
+
+@import "./base/tipografias";
+@import "./base/reset";
+@import "./base/codigo-general";
+
+/*LAYOUT*/
+
+@import "./layout/index";
+@import "./layout/catalogo";
+@import "./layout/quienes-somos";
+@import "./layout/blog";
+@import "./layout/novedades";
+@import "./layout/footer";
+
+/*MEDIA Q*/
+
+@import "./layout/mediasQ/-media1300.scss";
+@import "./layout/mediasQ/-media1200.scss";
+@import "./layout/mediasQ/-media1170.scss";
+@import "./layout/mediasQ/-media1100.scss";
+@import "./layout/mediasQ/-media980.scss";
+@import "./layout/mediasQ/-media930.scss";
+@import "./layout/mediasQ/-media820.scss";
+@import "./layout/mediasQ/-media768.scss";
+@import "./layout/mediasQ/-media730.scss";
+@import "./layout/mediasQ/-media620.scss";
+@import "./layout/mediasQ/-media500.scss";
+@import "./layout/mediasQ/-media400.scss";
+@import "./layout/mediasQ/-media350.scss";
+
+
+/*COMPONENTES*/
+
+@import "./components/bootstrap"

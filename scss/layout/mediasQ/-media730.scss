@@ -1,0 +1,62 @@
+@media (max-width: 730px) {
+        /*----- BLOG.HTML -----*/
+
+    main{
+        .articulosBlog{
+            article{
+                flex-direction: column;
+                width: 300px;
+                min-width: 150px;
+                margin-bottom: 40px;
+                a{
+                    img{
+                        width: 300px;
+                    }
+                }
+                .textoBlog{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 200px;
+                    width: 100%;
+                    margin-bottom: 80px;
+                }
+            }
+        }
+    }
+
+    /*----- NOVEDADES.HTML -----*/
+    main{
+        .portadasNovedades{
+            display: grid;
+            grid-template-columns: repeat(2, 150px);
+            row-gap: 40px;
+            justify-items: center;
+            .portadaNov{
+                &:nth-child(4){
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .appLinkbooks{
+        div{
+            .textoAppNov{
+                p{
+                    margin-right: 40px;
+                }
+            }
+            .botonesNov{
+                .appStore2{
+                    padding: 8px 40px;
+                    font-size: 18px;
+                }
+                .playStore2{
+                    padding: 8px 40px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

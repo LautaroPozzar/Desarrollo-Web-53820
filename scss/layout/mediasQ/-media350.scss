@@ -1,0 +1,23 @@
+@media (max-width: 350px) {
+    /*----- INDEX.HTML -----*/
+
+    .textoInicio {
+        img{
+            width: 90px;
+        }
+        h1{
+            font-size: 1.875rem;
+        }
+    }
+
+    /*Seccion app*/
+    .botonesApps {
+        gap: 0px; 
+        .appStore{
+            padding: 10px 15px;
+        }
+        .playStore{
+            padding: 10px 15px;
+        }
+    }
+}

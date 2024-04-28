@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    /*----- INDEX.HTML -----*/
+
+    .exploraCatalogo {
+        column-gap: 0px;
+        row-gap: 15px; }
+
+    /*Seccion app*/
+    .botonesApps {
+        gap: 15px; 
+        .appStore{
+            padding: 12px 40px;
+            font-size: .9375rem;
+        }
+        .playStore{
+            padding: 12px 40px;
+            font-size: .9375rem;
+        }
+    }
+
+    /*------ BLOG.HTML ------*/
+    .subtituloBlog {
+        font-size: 4.375rem; } 
+}

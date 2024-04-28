@@ -1,0 +1,71 @@
+/*Buscador y filtros*/
+
+.selectoresCatalogo {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 40px;
+    form{
+      input{
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px 40px;
+        font-size: .9375rem; 
+      }
+    } 
+    select{
+      background-color: black;
+      border: 1px solid white;
+      border-radius: 5px;
+      padding: 10px 30px;
+      color: white;
+      font-size: .9375rem;
+    }
+  }
+  
+  /*Texto catalogo*/
+
+  .tituloCatalogo {
+    margin: 170px 0px 100px 0px; }
+  
+
+    .catalogo{
+      section{
+        .seccionCatalogo{
+          display: flex;
+          justify-content: space-evenly;
+          margin: 60px 0px;
+          article{
+            a{
+              img{
+                &:hover{
+                  filter: brightness(1.18); 
+                }
+              }
+            }
+            div{
+              a{
+                h2{
+                  font-family: "Montserrat", sans-serif;
+                  font-size: .8125rem; 
+                }
+              }
+              .infoCatalogo{
+                margin-top: 20px; 
+                p{
+                  font-size: .8125rem;
+                  text-align: left; 
+                }
+                .precio{
+                  color: #2963DA; 
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  .footerCatalogo {
+    margin-top: 100px; }

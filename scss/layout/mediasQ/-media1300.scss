@@ -1,0 +1,29 @@
+@media (max-width: 1300px) {
+    /*----- INDEX.HTML -----*/
+
+    .parrafoInicio {
+        margin: 0px 50px 70px 50px; }
+
+    /*Segunda seccion*/
+
+    .segundaSection {
+        width: 90%; 
+        div{
+            h2{
+                margin: 40px 40px;
+            }
+        }
+        .exploraCatalogo{
+            grid-template-columns: repeat(3, 200px);
+            grid-template-rows: repeat(2, 1fr);
+            column-gap: 60px;
+            row-gap: 40px;
+            margin: 70px 20px 80px 20px;
+            .portadaInicio{
+                .portada1{
+                    max-width: 200px;
+                }
+            }
+        }
+    }
+}

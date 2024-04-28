@@ -1,0 +1,46 @@
+@media (max-width: 1170px) {
+    /*----- INDEX.HTML -----*/
+    /*seccion app*/
+
+    .appInicio {
+        flex-direction: column;
+        align-items: center; 
+        .textoAppInicio{
+            margin: 40px 60px 40px 40px;
+            div{
+                p{
+                    font-size: 1.5625rem; 
+                }
+                .botonesApps{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 40px;
+                    margin-top: 80px;
+                }
+            } 
+        }
+        .imagenTres1{
+            margin: 40px 0px;
+            display: flex;
+            justify-content: center;
+            .imagenTres{
+                max-width: 300px;
+                min-width: 170px;
+            }
+        }
+    }
+
+    /*---- NOVEDADES.HTML -----*/
+
+    main{
+        .portadasNovedades{
+            .portadaNov:nth-child(4){
+                display: none;
+            }
+            .portadaNov:nth-child(5){
+                display: none;
+            }
+        }
+    }
+}

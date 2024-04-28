@@ -1,0 +1,36 @@
+@media (max-width: 980px) {
+    /*----- INDEX.HTML -----*/
+    .textoPrimeraSection h2 {
+        font-size: 1.875rem; }
+
+    /*Tercera seccion*/
+    .textoTerceraSection {
+        margin: 40px 35px 40px 80px; 
+        h2{
+            font-size: 1.875rem;
+        }
+    }
+
+    /*------ BLOG.HTML ------*/
+    .articulosBlog {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        article{
+            display: flex;
+            justify-content: center;
+            width: 70%;
+            margin-bottom: 80px;
+            .textoBlog{
+                height: 100%;
+                width: 100%;
+                h3{
+                    font-size: 1rem;
+                }
+                p{
+                    font-size: .875rem; 
+                }
+            }
+        }
+    }
+}

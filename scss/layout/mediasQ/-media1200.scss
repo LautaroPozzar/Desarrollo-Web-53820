@@ -1,0 +1,28 @@
+@media (max-width: 1200px) {
+    /*---- BLOG.HTML ------*/
+
+    main{
+        .tituloBlog {
+            font-size: 4.375rem; }
+        .subtituloBlog {
+            font-size: 6.875rem; }
+    }
+
+    /*---- NOVEDADES.HTML ------*/
+    
+    .appLinkbooks {
+        display: flex;
+        flex-direction: column;
+        margin: 90px 60px; 
+        .subtituloNov{
+        font-size: 3.125rem; 
+    }
+    .textoAppNov{
+        p{
+            font-size: 15px; 
+        }
+    }
+}
+
+    .imagenNov {
+        display: none; } }

@@ -1,0 +1,197 @@
+/*Inicio*/
+
+.textoInicio {
+    text-align: center;
+    margin: 80px 70px; 
+    h1{
+      margin: 50px 100px 70px 100px;
+    }
+    .parrafoInicio{
+      font-size: 1.5625rem;
+      margin: 0px 120px 70px 120px;
+      line-height: 2;
+    }
+    .botonRegistrate{
+      background-color: #2963DA;
+      color: white;
+      padding: 10px 50px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1.25rem;
+      font-family: "Montserrat", sans-serif;
+      &:hover{
+        background-color: #6e95e2;
+      }
+    }
+  }
+
+
+  .sectionInicio {
+    display: flex;
+    flex-direction: column;
+    gap: 6.25rem;
+    align-items: center; 
+  }
+
+  /*primera seccion*/
+
+  .sectionInicio h2 {
+    color: #2963DA;
+    font-size: 2.1875rem;
+    font-weight: 400; }
+  
+  /*Primera seccion*/
+
+  .primeraSection {
+    background-color: #06102D;
+    margin: 0px 40px;
+    display: flex;
+    align-items: center; 
+    .textoPrimeraSection {
+      align-self: flex-start;
+      margin: 40px 120px 40px 35px; 
+      h2{
+        color: #2963DA;
+        font-size: 2.1875rem;
+        font-weight: 400; 
+        margin-bottom: 40px; 
+      }
+      p{
+        font-size: 1.0625rem;
+        line-height: 2;
+      }
+      .unetenos1{
+        text-align: center;
+        margin-top: 30px;
+        .unetenos{
+          font-size: 1.5625rem;
+          color: #2963DA;
+          text-decoration: underline;
+          font-weight: 500;
+        }
+      }
+    }
+    .imagenUno1{
+      width: 100%;
+      min-width: 380px;
+      margin: 60px 20px 60px 0px; 
+      .imagenUno {
+        width: 100%; }
+    }
+  }
+  
+  /*Segunda seccion*/
+
+  .segundaSection {
+    background-color: #06102D;
+    width: 94%; 
+    div{
+      h2{
+        text-align: center;
+        font-size: 1.875rem;
+        margin: 40px 20px;
+      }
+    }
+    .exploraCatalogo{
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: 1;
+      justify-content: center;
+      justify-items: center;
+      margin: 40px 20px 80px 20px; 
+    }
+  }
+  
+  /*Tercera seccion*/
+
+  .terceraSection {
+    background-color: #06102D;
+    margin: 0px 40px;
+    display: flex;
+    align-items: center; 
+    .imagenDos1{
+      width: 100%;
+      min-width: 380px;
+      margin: 60px 0px 60px 20px; 
+      .imagenDos{
+        width: 100%;
+      }
+    }
+    .textoTerceraSection{
+      margin: 40px 35px 40px 120px;
+      h2{
+        margin: 40px 0px 25px 0px; 
+      }
+      p{
+        margin: 40px 0px;
+        line-height: 2;
+      }
+      .enlace1{
+        text-align: center;
+        .enlaceNewsletter{
+          font-size: 1.5625rem;
+          color: #2963DA;
+          text-decoration: underline;
+          font-weight: 500; 
+        }
+      }
+    }
+  }
+  
+  /*Seccion app*/
+
+  .appInicio {
+    background-color: #06102D;
+    margin: 150px 40px;
+    display: flex;
+    align-items: center;
+    .textoAppInicio{
+      margin: 40px 120px 40px 60px;
+      h2{
+        font-weight: 300;
+        font-size: 5rem;
+      }
+      div{
+        p{
+          line-height: 2;
+          margin-top: 40px; 
+        }
+        .botonesApps{
+          margin: 50px 0px;
+          .appStore{
+            background-color: #2963DA;
+            color: white;
+            padding: 15px 65px;
+            border: none;
+            border-radius: .5rem;
+            font-size: 1.375rem;
+            margin-right: 30px;
+            font-family: "Montserrat", sans-serif;
+            &:hover{
+              background-color: #6e95e2;
+            }
+          }
+          .playStore{
+            background-color: #2963DA;
+            color: white;
+            padding: 15px 65px;
+            border: none;
+            border-radius: .5rem;
+            font-size: 1.375rem;
+            font-family: "Montserrat", sans-serif;
+            &:hover{
+              background-color: #6e95e2; 
+            }
+          }
+        }
+      }
+    }
+   }
+   
+  .imagenTres1 {
+    width: 50%; 
+    .imagenTres {
+      width: 70%;
+      min-width: 250px; 
+    }
+  }

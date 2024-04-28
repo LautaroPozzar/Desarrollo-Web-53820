@@ -1,0 +1,99 @@
+@media (max-width: 500px) {
+    /*----- INDEX.HTML -----*/
+
+    /*Seccion inicio*/
+    .textoInicio{
+        img{
+            width: 100px;
+        }
+        h1{
+            font-size: 2.5rem;
+            margin: 40px 20px 60px 20px;
+        }
+        .botonRegistrate{
+            padding: 8px 35px;
+            font-size: .75rem;
+        }
+    } 
+
+    /*Segunda seccion*/
+    .segundaSection{
+        .exploraCatalogo{
+            column-gap: 0px; 
+            .portadaInicio{
+                .portada1{
+                    max-width: 120px;
+                }
+            }
+        }
+    }
+
+    /*Seccion app*/
+    .appInicio{
+        .textoAppInicio{
+            margin: 40px 18px 40px 18px;
+            h2{
+                font-size: 3.125rem; 
+            }
+            div{
+                .botonesApps{
+                    gap: 4px;
+                    margin: 50px 0px 30px 0px; 
+                    .appStore{
+                        padding: 12px 22px;
+                    }
+                    .playStore{
+                        padding: 12px 22px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*------ NOVEDADES.HTML -------*/
+    main{
+        .tituloNovedades{
+            font-size: 1.875rem; 
+        }
+        .portadasNovedades{
+            .portadaNov{
+                .portadaNueva{
+                    max-width: 140px;
+                }
+            }
+        }
+    }
+
+    .appLinkbooks {
+        margin: 90px 30px; 
+        div{
+            .subtituloNov{
+                font-size: 1.875rem;
+            }
+            .textoAppNov{
+                p{
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                }
+            }
+            .botonesNov{
+                .appStore2{
+                    padding: 5px 20px;
+                    font-size: .625rem;
+                }
+                .playStore2{
+                    padding: 5px 20px;
+                    font-size: .625rem;
+                }
+            }
+        }
+    }
+
+    /*----- FOOTER -----*/
+
+    footer{
+        .footerDos{
+            gap: 90px;
+        }
+    }
+}

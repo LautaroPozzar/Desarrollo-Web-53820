@@ -1,0 +1,85 @@
+@media (max-width: 930px) {
+    /*----- INDEX.HTML -----*/
+
+    /*Seccion inicio*/
+    .textoInicio{
+        h1{
+            font-size: 3.4375rem;
+            margin: 50px 40px 70px 40px;
+        }
+        .parrafoInicio{
+            font-size: 1.25rem; 
+        }
+    }
+
+    /*Primera seccion*/
+    .primeraSection {
+        flex-direction: column;
+        text-align: center;
+        margin: 0px 60px; 
+        .textoPrimeraSection{
+            margin: 0px 0px 0px 0px; 
+            h2{
+                font-size: 2.375rem;
+                margin: 30px 45px; 
+            }
+            p{
+                font-size: 1.25rem;
+                margin: 20px 100px; 
+            }
+            .unetenos1{
+                .unetenos{
+                    margin: 0px 0px;
+                }
+            }
+        }
+        .imagenUno1{
+            width: 50%;
+            margin: 50px 0px;
+            min-width: 300px;
+            .imagenUno{
+                width: 100%;
+            }
+        }
+    }
+
+    /*Tercera seccion */
+    .terceraSection {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0px 60px; 
+        .imagenDos1{
+            width: 50%;
+            margin: 40px 0px;
+            min-width: 300px; 
+            .imagenDos{
+                width: 100%; 
+            }
+        }
+        .textoTerceraSection{
+            margin: 0px 0px 0px 0px;
+            h2{
+                font-size: 2.375rem;
+                margin: 30px 50px;
+            }
+            p{
+                font-size: 1.25rem;
+                margin: 20px 100px;
+            }
+        }
+    }
+
+    /*------ BLOG.HTML ------*/
+    main{
+        .tituloBlog{
+            font-size: 3.125rem;
+        }
+        .subtituloBlog{
+            font-size: 5.625rem;
+        }
+    }
+
+    /*----- NOVEDADES.HTML -----*/
+    .tituloNovedades {
+        font-size: 50px; } 
+}

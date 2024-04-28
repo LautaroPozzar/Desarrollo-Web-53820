@@ -1,0 +1,81 @@
+/*Inicio*/
+main{
+  .tituloBlog {
+    font-size: 6.25rem;
+    margin-top: 150px; 
+  }
+  .subtituloBlog{
+    color: #2963DA;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-size: 9.25rem;
+    font-weight: 100;
+    margin: 150px 0px 200px 60px;
+  }
+}
+
+  /*Articulos blog*/
+
+  .articulosBlog {
+    font-size: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; 
+    article{
+      width: 300px; 
+      a{
+        img{
+          &:hover{
+            filter: brightness(1.18); 
+          }
+        }
+      }
+      .textoBlog{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 300px;
+        margin-bottom: 80px; 
+        h3{
+          margin: 20px 0px 40px 0px;
+          color: white;
+          font-weight: bold;
+          font-family: "Montserrat", sans-serif;
+          font-size: 1.25rem;
+        }
+        p{
+          font-size: 1.125rem; 
+        }
+        a{
+          p{
+            color: #2963DA;
+            text-decoration: underline; 
+          }
+        }
+      }
+    }
+  }
+  
+  /*Seccion newsletter*/
+
+  .textNewsletter {
+    justify-content: center;
+    text-align: center;
+    margin: 200px 70px; 
+    h2{
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin: 200px 0px 50px 0px; 
+    }
+    .botonAqui{
+      background-color: #2963DA;
+      color: white;
+      padding: 10px 50px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.875rem;
+      font-family: "Montserrat", sans-serif; 
+      &:hover{
+        background-color: #6e95e2; 
+      }
+    }
+  }

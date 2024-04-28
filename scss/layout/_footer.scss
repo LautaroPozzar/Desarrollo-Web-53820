@@ -1,0 +1,34 @@
+footer {
+  font-size: .9375rem;
+  background-color: #06102D;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+  .enlacesFooter {
+    text-decoration: none;
+    display: flex;
+    gap: 1.25rem;
+    margin-left: 20px;
+    a{
+      color: white; 
+      &:hover{
+        color: #2963DA;
+      }
+    }
+    }
+
+    .derechosPagina1{
+      .derechosPagina{
+        font-size: .9375rem; 
+      }
+    }
+
+    .footerDos {
+      display: flex;
+      gap: 20px;
+      margin-right: 20px;
+    }
+

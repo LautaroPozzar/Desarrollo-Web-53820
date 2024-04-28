@@ -1,0 +1,115 @@
+@media (max-width: 620px) {
+    /*----- INDEX.HTML -----*/
+
+    /*Primera seccion*/
+    .primeraSection {
+        margin: 0px 26px; 
+        .textoPrimeraSection{
+            h2{
+                margin: 30px 20px;
+            }
+            p{
+                font-size: 1.1875rem;
+                margin: 20px 20px;
+            }
+        }
+    }
+
+    /*Segunda seccion*/
+    .segundaSection{
+        div{
+            h2{
+                font-size: 1.25rem;
+            }
+        }
+        .exploraCatalogo{
+            grid-template-columns: repeat(2, 170px);
+            grid-template-rows: repeat(2, 1fr);
+            column-gap: 20px;
+            row-gap: 30px;
+            margin: 70px 10px;
+            .portadaInicio{
+                &:nth-child(3){
+                    display: none;
+                }
+            }
+            .portadaInicio{
+                &:nth-child(5){
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /*Tercera seccion*/
+    .terceraSection {
+        margin: 0px 40px; 
+        .textoTerceraSection{
+            h2{
+                margin: 30px 20px;
+            }
+            p{
+                font-size: 1.1875rem;
+                margin: 20px 20px;
+            }
+        }
+    }
+
+    /*Seccion app*/
+    .botonesApps {
+        gap: 8px;
+        margin: 50px 0px 40px 0px; 
+        .appStore{
+            padding: 12px 27px;
+        }
+        .playStore{
+            padding: 12px 27px;
+        }
+    }
+
+    /*----- BLOG.HTML -----*/
+    main{
+        .tituloBlog{
+            font-size: 2.5rem; 
+        }
+        .subtituloBlog{
+            margin: 130px 30px 180px 30px;
+            font-size: 3.4375rem;
+        }
+    }
+
+    .textNewsletter {
+        h2{
+            font-size: 1.875rem;
+        }
+        .botonAqui{
+            padding: 7px 35px;
+            font-size: 1.25rem;
+        }
+    }
+
+    /*---- NOVEDADES.HTML -----*/
+    .appLinkbooks{
+        div{
+            .subtituloBlog{
+                font-size: 3.125rem;
+            }
+            .textoAppNov{
+                p{
+                    margin-bottom: 25px;
+                }
+            }
+            .botonesNov{
+                .appStore2{
+                    padding: 5px 30px;
+                    font-size: .6875rem;
+                    margin-right: 20px;
+                }
+                .playStore2{
+                    padding: 5px 30px;
+                    font-size: .6875rem;
+                }
+            }
+        }
+    }
+}
