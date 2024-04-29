@@ -87,6 +87,24 @@
         }
     }
 
+        /*---- CATALOGO.HTML -----*/
+
+        .catalogo{
+            section{
+                .seccionCatalogo{
+                    article{
+                        width: 100px;
+                        a{
+                            img{
+                                max-width: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
     /*---- FOOTER -----*/
     footer {
         display: flex;

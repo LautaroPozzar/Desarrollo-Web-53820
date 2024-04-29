@@ -1,4 +1,37 @@
 @media (max-width: 1200px) {
+    /*---- CATALOGO.HTML ------*/
+
+    .catalogo{
+        section{
+            .seccionCatalogo{
+                article{
+                    width: 140px;
+                    a{
+                        img{
+                            max-width: 140px;
+                        }
+                    }
+                    div{
+                        img{
+                            display: none;
+                        }
+                        a{
+                            h2{
+                                font-size: 11px;
+                            }
+                        }
+                        .infoCatalogo{
+                            p{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
     /*---- BLOG.HTML ------*/
 
     main{

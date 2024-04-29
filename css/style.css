@@ -412,14 +412,13 @@ main .subtituloBlog {
 
 .botonesNov .appStore2 {
   background-color: #2963DA;
-  color: white;
   padding: 15px 65px;
   border: none;
   border-radius: .5rem;
   font-size: 1.375rem;
-  margin: 60px 35px 100px 40px;
+  margin: 60px 20px 100px 20px;
   cursor: pointer; }
-  .botonesNov .appStore2.hover {
+  .botonesNov .appStore2:hover {
     background-color: #6e95e2; }
   .botonesNov .appStore2 a {
     color: white; }
@@ -436,13 +435,6 @@ main .subtituloBlog {
     background-color: #6e95e2; }
   .botonesNov .playStore2 a {
     color: white; }
-
-.imagenNov {
-  margin-right: 80px;
-  width: 500px;
-  min-width: 250px; }
-  .imagenNov img {
-    width: 100%; }
 
 footer {
   font-size: .9375rem;
@@ -490,6 +482,17 @@ footer {
         max-width: 200px; } }
 
 @media (max-width: 1200px) {
+  /*---- CATALOGO.HTML ------*/
+  .catalogo section .seccionCatalogo article {
+    width: 140px; }
+    .catalogo section .seccionCatalogo article a img {
+      max-width: 140px; }
+    .catalogo section .seccionCatalogo article div img {
+      display: none; }
+    .catalogo section .seccionCatalogo article div a h2 {
+      font-size: 11px; }
+    .catalogo section .seccionCatalogo article div .infoCatalogo p {
+      font-size: 12px; }
   /*---- BLOG.HTML ------*/
   main .tituloBlog {
     font-size: 4.375rem; }
@@ -578,6 +581,15 @@ footer {
     margin: 40px 35px 40px 80px; }
     .textoTerceraSection h2 {
       font-size: 1.875rem; }
+  /*------ CATALOGO.HTML ------*/
+  .catalogo section .seccionCatalogo article {
+    width: 120px; }
+    .catalogo section .seccionCatalogo article a img {
+      max-width: 120px; }
+    .catalogo section .seccionCatalogo article div a h2 {
+      font-size: 10px; }
+    .catalogo section .seccionCatalogo article div .infoCatalogo p {
+      font-size: 9px; }
   /*------ BLOG.HTML ------*/
   .articulosBlog {
     display: flex;
@@ -694,6 +706,11 @@ footer {
     padding: 12px 50px; }
   .appInicio .textoAppInicio div .botonesApps .playStore {
     padding: 12px 50px; }
+  /*---- CATALOGO.HTML -----*/
+  .catalogo section .seccionCatalogo article {
+    width: 100px; }
+    .catalogo section .seccionCatalogo article a img {
+      max-width: 100px; }
   /*---- FOOTER -----*/
   footer {
     display: flex;
